@@ -1,0 +1,6 @@
+com\mycompany\msahost1\config\Producers.class
+com\mycompany\msahost1\service\HealthCheckService.class
+Entity\Person.class
+com\mycompany\msahost1\service\ExampleService.class
+com\mycompany\msahost1\config\BootStrap.class
+com\mycompany\msahost1\config\CrossOriginResourceSharingFilter.class

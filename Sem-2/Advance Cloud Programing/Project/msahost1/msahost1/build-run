@@ -1,0 +1,3 @@
+#!/bin/sh
+mvn clean package && docker build -t karan/msahost1 .
+docker rm -f msahost1 2>/dev/null || true && docker run -it --name msahost1 -p 8080:8080 -p 4848:4848 -p 8181:8181 --name msahost1 karan/msahost1

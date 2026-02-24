@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Insert Person</h2>
+        <form action="DBServlet" method="post">
+            Name:<br>
+            <input type="text" name="name" required><br><br>
+            
+            Email:<br><!-- comment -->
+            <input type="email" name="email" required><br><br>
+            
+            <button type="submit" name="action" value="insert">Insert</button>
+        </form>
+        
+        <hr><!-- comment -->
+        
+        <h2>Update Person</h2>
+        <form action="DBServlet" method="post">
+            Name:<br>
+            <input type="text" name="name" required><br><br>
+            
+            Email:<br><!-- comment -->
+            <input type="email" name="email" required><br><br>
+            
+            <button type="submit" name="action" value="update">Update</button>
+        </form>
+        
+        <hr><!-- comment -->
+        
+        <h2>Delete Person</h2>
+        <form action="DBServlet" method="post">
+            Email:<br><!-- comment -->
+            <input type="email" name="email" required><br><br>
+            
+            <button type="submit" name="action" value="delete">Delete</button>
+        </form>
+        
+        <h2>View Person</h2>
+        <form action="DBServlet" method="post">
+            
+            <button type="submit" name="action" value="view">View All Persons</button>
+        </form>
+        
+    </body>
+</html>

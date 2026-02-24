@@ -1,0 +1,8 @@
+com\mycompany\msaclient01\service\HealthCheckService.class
+com\mycompany\msaclient01\config\BootStrap.class
+com\mycompany\msaclient01\service\ExampleService.class
+Servlets\NewServlet.class
+com\mycompany\msaclient01\config\Producers.class
+Interface\Interface.class
+Entity\Person.class
+com\mycompany\msaclient01\config\CrossOriginResourceSharingFilter.class
